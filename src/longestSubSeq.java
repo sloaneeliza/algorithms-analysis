@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//Question 1
 public class longestSubSeq {
     public static int lcs(String string1, String string2) {
         int m = string1.length();
@@ -16,7 +16,7 @@ public class longestSubSeq {
             }
         }
 
-        return a[m][n]; // Length of longest common subsequence
+        return a[m][n];
     }
 
     public static void main(String[] args) {

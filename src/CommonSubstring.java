@@ -1,3 +1,4 @@
+//Question 2
 public class CommonSubstring {
     int longestCommonSubstring(String string1, String string2) {
         char[] m = string1.toCharArray();
